@@ -1,0 +1,53 @@
+body {
+    font-family: "微软雅黑";
+}
+
+.myheader {
+    font-size: 20px;
+    width: 200px;
+    height: 100%;
+    line-height: 50px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.op:hover {
+    cursor: pointer;
+}
+
+section.insertItem {
+    height: 34px;
+    padding-right: 18px
+}
+
+table.mytable {
+    width: 100%;
+}
+
+.mytable tr td,
+.mytable tr th {
+    border: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+}
+
+.mytable tr td {
+    text-align: center;
+}
+
+.myinput {
+    width: 95%;
+    height: 70%;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.myinput:focus {
+    border: 1px solid #888;
+    outline: none;
+}
+
+bt.bt-nob {
+    border: none;
+}
+

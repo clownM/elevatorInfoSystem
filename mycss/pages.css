@@ -1,0 +1,26 @@
+.pagesDiv{
+    display:table;
+    margin: 0 auto;
+}
+.pages{
+    list-style:none;
+    display:flex;
+    padding: 0
+}
+.pages li{
+    margin-right: 10px;
+    color: rgb(60,141,188);
+    padding: 5px;
+    border:1px solid rgb(60,141,188);
+}
+.pages li a{
+    color: inherit;
+}
+.pages li.divider-vertical{
+    color: #555;
+    border: none;
+}
+.pages li.disabled{
+    color: #ccc;
+    border-color: #ccc;
+}
